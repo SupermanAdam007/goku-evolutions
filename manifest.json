@@ -1,0 +1,60 @@
+{
+    "name": "How Long Can You Hold This Button?",
+    "short_name": "Button Hold",
+    "description": "Think you have the finger of steel? Test your patience and see how long you can hold this button! Share your epic time with friends!",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#0f172a",
+    "theme_color": "#6366f1",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "lang": "en",
+    "categories": ["games", "entertainment"],
+    "icons": [
+        {
+            "src": "icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "screenshot-mobile.svg",
+            "sizes": "390x844",
+            "type": "image/svg+xml",
+            "form_factor": "narrow"
+        },
+        {
+            "src": "screenshot-desktop.svg",
+            "sizes": "1280x720",
+            "type": "image/svg+xml",
+            "form_factor": "wide"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "Start Challenge",
+            "short_name": "Challenge",
+            "description": "Start a new button holding challenge",
+            "url": "/?shortcut=challenge",
+            "icons": [
+                {
+                    "src": "icon-192.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ],
+    "features": [
+        "Cross Platform",
+        "Fast",
+        "Engaging"
+    ]
+} 

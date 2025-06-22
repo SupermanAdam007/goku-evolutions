@@ -1,0 +1,193 @@
+# -----------------------------------------------------------------
+# .gitignore for Goku Evolution Web Game
+# Optimized for HTML/CSS/JS projects with game assets
+# Based on 2025 web development best practices
+# -----------------------------------------------------------------
+
+# =================================================================
+# AI TOOL DIRECTORIES (Keep existing)
+# =================================================================
+.cursor/
+.todo2/
+
+# =================================================================
+# OS-SPECIFIC FILES
+# =================================================================
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =================================================================
+# EDITOR/IDE FILES
+# =================================================================
+# Visual Studio Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Atom
+.atom/
+
+# =================================================================
+# BUILD AND DEPENDENCY DIRECTORIES
+# =================================================================
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Build outputs
+/build
+/dist
+/out
+/.next/
+/.nuxt/
+/.cache/
+/coverage/
+
+# Webpack
+.webpack/
+
+# =================================================================
+# ENVIRONMENT AND CONFIG FILES
+# =================================================================
+# Environment variables (keep .env.example)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Config files that may contain secrets
+config.local.js
+config.local.json
+
+# =================================================================
+# LOG FILES
+# =================================================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# =================================================================
+# TEMPORARY FILES
+# =================================================================
+*.tmp
+*.temp
+.tmp/
+.temp/
+
+# =================================================================
+# ARCHIVE FILES
+# =================================================================
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# =================================================================
+# COMPILED FILES
+# =================================================================
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# =================================================================
+# SECURITY FILES (Private keys, certificates)
+# =================================================================
+*.pem
+*.key
+*.der
+*.crt
+*.p12
+*.pfx
+
+# =================================================================
+# EXPLICITLY ALLOWED FILES (Track these important files)
+# =================================================================
+# Essential game files
+!index.html
+!script.js
+!styles.css
+!sw.js
+!manifest.json
+!README.md
+
+# Game assets
+!hq720.jpg
+!goku-*.js
+!goku-*.json
+!goku-*.svg
+!goku-*.mp3
+!icon-*.png
+!icon.svg
+!screenshot-*.svg
+!images/
+
+# PWA and config files
+!.gitignore
+!.editorconfig
+!.nvmrc

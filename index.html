@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>How Long Can You Hold This Button? 🔥</title>
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Theme colors for mobile browsers -->
+    <meta name="theme-color" content="#6366f1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <!-- Social Media Meta Tags -->
+    <meta property="og:title" content="Train with Goku: Unlock Ultra Instinct & Beyond! 🐉">
+    <meta property="og:description" content="Can you hold the power long enough to reach Goku's ultimate evolution? Train through Kaio-Ken, Super Saiyan, and unlock Mastered Ultra Instinct! Test your determination and share your power level!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://todo2-test5.vercel.app/">
+    <meta property="og:image" content="https://todo2-test5.vercel.app/hq720.jpg">
+    <meta property="og:image:width" content="1280">
+    <meta property="og:image:height" content="720">
+    <meta property="og:image:alt" content="Goku Evolution Training Challenge">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Train with Goku: Unlock Ultra Instinct & Beyond! 🐉">
+    <meta name="twitter:description" content="Can you hold the power long enough to reach Goku's ultimate evolution? Train through Super Saiyan transformations and unlock Mastered Ultra Instinct!">
+    <meta name="twitter:image" content="https://todo2-test5.vercel.app/hq720.jpg">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="styles.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    
+    <!-- YouTube iframe API -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Icons for PWA -->
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="icon-512.png">
+</head>
+<body>
+    <!-- Install PWA Banner -->
+    <div id="install-banner" class="install-banner hidden">
+        <div class="install-content">
+            <span class="install-text">📱 Install app for the best experience!</span>
+            <button id="install-btn" class="install-button">Install</button>
+            <button id="dismiss-install" class="dismiss-button">✕</button>
+        </div>
+    </div>
+
+    <!-- Main App Container -->
+    <div id="app" class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <h1 class="title">
+                <span class="title-main">How Long Can You Hold</span>
+                <span class="title-sub">Goku?</span>
+            </h1>
+        </header>
+
+        <!-- Game Area -->
+        <main class="game-area">
+            <!-- YouTube Video Background -->
+            <div id="youtube-background" class="youtube-background">
+                <div id="youtube-player"></div>
+            </div>
+            
+            <!-- Background Music -->
+            <audio id="bgm" loop preload="auto">
+                <source src="goku-time-to-pay-song.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            
+            <!-- Music Controls -->
+            <div class="music-controls">
+                <button id="music-toggle" class="music-btn" title="Toggle Music">
+                    <span class="music-icon">🎵</span>
+                </button>
+            </div>
+            
+            <!-- Evolution Progress Bar -->
+            <div class="evolution-progress-container">
+                <div class="evolution-progress-bar">
+                    <div class="progress-fill" id="evolution-progress-fill"></div>
+                    <div class="progress-text">
+                        <span id="current-evolution">Base Goku</span>
+                        <span class="progress-separator">→</span>
+                        <span id="next-evolution">Kaio-Ken x2</span>
+                    </div>
+                </div>
+                <div class="evolution-countdown">
+                    <span id="time-to-evolution">2.0s</span> to next evolution
+                </div>
+            </div>
+            
+            <!-- Interactive Goku Character -->
+            <div class="goku-interaction-container">
+                <div class="goku-character-holder" id="goku-character-holder">
+                    <img id="goku-character" class="goku-character" src="./goku-placeholder.svg" alt="Hold Goku to begin training">
+                    <div class="goku-aura" id="goku-aura"></div>
+                    <div class="goku-power-ring" id="goku-power-ring">
+                        <svg class="progress-ring" width="220" height="220" viewBox="0 0 220 220">
+                            <circle class="progress-ring-background" cx="110" cy="110" r="100"></circle>
+                            <circle id="progress-ring-fill" class="progress-ring-fill" cx="110" cy="110" r="100"></circle>
+                        </svg>
+                    </div>
+                </div>
+                
+                <!-- Goku Evolution Info -->
+                <div class="goku-evolution-info" id="goku-evolution-info">
+                    <div class="goku-name" id="goku-name">Begin Your Training</div>
+                    <div class="goku-power-level" id="goku-power-level">Power Level: 0</div>
+                    <div id="timer-text" class="timer-text">0.00s</div>
+                </div>
+            </div>
+
+
+        </main>
+
+
+
+        <!-- Action Buttons -->
+        <section class="actions-section">
+            <button id="share-btn" class="action-button share-button">
+                <span class="button-icon">📤</span>
+                <span>Share Your Epic Time</span>
+            </button>
+        </section>
+
+        <!-- Instructions -->
+        <section class="instructions-section">
+            <details class="instructions-details">
+                <summary class="instructions-summary">📖 How to Play</summary>
+                <div class="instructions-content">
+                    <ol class="instructions-list">
+                        <li>Press and hold the button with your mouse or finger</li>
+                        <li>Keep holding as long as possible - don't let go!</li>
+                        <li>Watch Goku evolve through different forms as you hold longer</li>
+                        <li>Share your epic hold time with friends</li>
+                        <li>Challenge others to beat your record!</li>
+                    </ol>
+                    <p class="instructions-note">
+                        <strong>Pro tip:</strong> The longer you hold, the more legendary your title becomes! 
+                        Can you become the ultimate "Champion of Patience"?
+                    </p>
+                </div>
+            </details>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p class="footer-text">
+                Made with ❤️ for the patient souls of the internet
+            </p>
+            <div class="footer-links">
+                <button id="about-btn" class="footer-link">About</button>
+                <button id="privacy-btn" class="footer-link">Privacy</button>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modals -->
+    <div id="share-modal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>🎉 Share Your Epic Time!</h3>
+                <button id="close-share-modal" class="modal-close">✕</button>
+            </div>
+            <div class="modal-body">
+                <div class="share-stats">
+                    <div class="share-time">
+                        <span id="share-time-value">0.00s</span>
+                        <span class="share-time-label">Your Epic Time</span>
+                    </div>
+                </div>
+                
+                <!-- Viral Share Text -->
+                <div class="viral-text-container">
+                    <div class="viral-text-header">
+                        <span class="viral-text-label">📝 Your Viral Post Text</span>
+                        <button id="copy-viral-text" class="copy-viral-btn">📋 Copy Text</button>
+                    </div>
+                    <div class="viral-text-content" id="viral-text-content">
+                        I held this button for 0.00 seconds! 🔥 Think you can beat my time? 
+                    </div>
+                    <div class="viral-text-instructions">
+                        Copy this text and paste it when sharing on social media! 
+                    </div>
+                </div>
+                
+                <div class="share-buttons">
+                    <button id="share-twitter" class="share-button twitter">
+                        <span>🐦 Open Twitter</span>
+                    </button>
+                    <button id="share-facebook" class="share-button facebook">
+                        <span>📘 Open Facebook</span>
+                    </button>
+                    <button id="share-linkedin" class="share-button linkedin">
+                        <span>💼 Open LinkedIn</span>
+                    </button>
+                    <button id="share-reddit" class="share-button reddit">
+                        <span>🤖 Open Reddit</span>
+                    </button>
+                    <button id="share-whatsapp" class="share-button whatsapp">
+                        <span>💬 Open WhatsApp</span>
+                    </button>
+                    <button id="share-telegram" class="share-button telegram">
+                        <span>✈️ Open Telegram</span>
+                    </button>
+                    <button id="share-discord" class="share-button discord">
+                        <span>🎮 Open Discord</span>
+                    </button>
+                    <button id="share-tiktok" class="share-button tiktok">
+                        <span>🎵 Open TikTok</span>
+                    </button>
+                    <button id="share-copy" class="share-button copy">
+                        <span>🔗 Copy Link</span>
+                    </button>
+                    <button id="share-native" class="share-button native hidden">
+                        <span>📱 Share</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Achievement Popup -->
+    <div id="achievement-popup" class="achievement-popup hidden">
+        <div class="achievement-content">
+            <div class="achievement-icon">🏆</div>
+            <div class="achievement-title" id="achievement-title">New Achievement!</div>
+            <div class="achievement-description" id="achievement-description">You're getting good at this!</div>
+        </div>
+    </div>
+
+    <!-- Loading Spinner -->
+    <div id="loading" class="loading hidden">
+        <div class="spinner"></div>
+        <div class="loading-text">Loading...</div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="goku-evolutions.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,319 @@
+[
+  {
+    "name": "Base",
+    "attributes": {
+      "Power Level": "250 Trillion"
+    },
+    "image": "images/goku/base.jpg"
+  },
+  {
+    "name": "Great Ape",
+    "attributes": {
+      "Power Level": "2.5 Quadrillion",
+      "Multiplier": "Base x10"
+    },
+    "image": "images/goku/great-ape.png"
+  },
+  {
+    "name": "Kaio-Ken x2",
+    "attributes": {
+      "Power Level": "500 Trillion",
+      "Multiplier": "Base x2"
+    },
+    "image": "images/goku/kaio-ken-x2.png"
+  },
+  {
+    "name": "Kaio-Ken x3",
+    "attributes": {
+      "Power Level": "750 Trillion",
+      "Multiplier": "Base x3"
+    },
+    "image": "images/goku/kaio-ken-x3.png"
+  },
+  {
+    "name": "Kaio-Ken x4",
+    "attributes": {
+      "Power Level": "1 Quadrillion",
+      "Multiplier": "Base x4"
+    },
+    "image": "images/goku/kaio-ken-x4.png"
+  },
+  {
+    "name": "Kaio-Ken x10",
+    "attributes": {
+      "Power Level": "2.5 Quadrillion",
+      "Multiplier": "Base x10"
+    },
+    "image": "images/goku/kaio-ken-x10.png"
+  },
+  {
+    "name": "Kaio-Ken x20",
+    "attributes": {
+      "Power Level": "5 Quadrillion",
+      "Multiplier": "Base x20"
+    },
+    "image": "images/goku/kaio-ken-x20.png"
+  },
+  {
+    "name": "Super Saiyan",
+    "attributes": {
+      "Power Level": "12.5 Quadrillion",
+      "Multiplier": "Base x50"
+    },
+    "image": "images/goku/super-saiyan.png"
+  },
+  {
+    "name": "Super Saiyan Grade 2",
+    "attributes": {
+      "Power Level": "15.625 Quadrillion",
+      "Multiplier": "Base x62.5"
+    },
+    "image": "images/goku/super-saiyan-grade-2.png"
+  },
+  {
+    "name": "Super Saiyan Grade 3",
+    "attributes": {
+      "Power Level": "18.75 Quadrillion",
+      "Multiplier": "Base x75"
+    },
+    "image": "images/goku/super-saiyan-grade-3.png"
+  },
+  {
+    "name": "Mastered Super Saiyan",
+    "attributes": {
+      "Power Level": "12.5 Quadrillion",
+      "Multiplier": "Base x50 (No stamina or Ki drain)"
+    },
+    "image": "images/goku/mastered-super-saiyan.png"
+  },
+  {
+    "name": "Super Kaio-Ken",
+    "attributes": {
+      "Power Level": "25 Quadrillion",
+      "Multiplier": "Base x100"
+    },
+    "image": "images/goku/super-kaio-ken.png"
+  },
+  {
+    "name": "Super Saiyan 2",
+    "attributes": {
+      "Power Level": "25 Quadrillion",
+      "Multiplier": "Base x100"
+    },
+    "image": "images/goku/super-saiyan-2.png"
+  },
+  {
+    "name": "Super Saiyan 3",
+    "attributes": {
+      "Power Level": "100 Quadrillion",
+      "Multiplier": "Base x400"
+    },
+    "image": "images/goku/super-saiyan-3.png"
+  },
+  {
+    "name": "Super Saiyan 4 (Daima Version)",
+    "attributes": {
+      "Power Level": "1 Quintillion",
+      "Multiplier": "Base x4,000"
+    },
+    "image": "images/goku/super-saiyan-4-daima-version-.png"
+  },
+  {
+    "name": "Golden Great Ape",
+    "attributes": {
+      "Power Level": "125 Quadrillion",
+      "Multiplier": "Base x500"
+    },
+    "image": "images/goku/golden-great-ape.png"
+  },
+  {
+    "name": "Super Saiyan 4",
+    "attributes": {
+      "Power Level": "1 Quintillion",
+      "Multiplier": "Base x4,000"
+    },
+    "image": "images/goku/super-saiyan-4.png"
+  },
+  {
+    "name": "Super Full Power Super Saiyan 4",
+    "attributes": {
+      "Power Level": "12 Quintillion",
+      "Multiplier": "Base x48,000"
+    },
+    "image": "images/goku/super-full-power-super-saiyan-4.png"
+  },
+  {
+    "name": "Ultra Full Power Super Saiyan 4",
+    "attributes": {
+      "Power Level": "120 Quintillion",
+      "Multiplier": "Base x480,000"
+    },
+    "image": "images/goku/ultra-full-power-super-saiyan-4.webp"
+  },
+  {
+    "name": "Super Full Power Saiyan 4 Limit Breaker",
+    "attributes": {
+      "Power Level": "20 Sextillion",
+      "Multiplier": "Base x80,000,000"
+    },
+    "image": "images/goku/super-full-power-saiyan-4-limit-breaker.png"
+  },
+  {
+    "name": "Super Saiyan God",
+    "attributes": {
+      "Power Level": "5 Quintillion",
+      "Multiplier": "Base x20,000"
+    },
+    "image": "images/goku/super-saiyan-god.png"
+  },
+  {
+    "name": "Super Saiyan Blue",
+    "attributes": {
+      "Power Level": "25 Quintillion",
+      "Multiplier": "Base x100,000"
+    },
+    "image": "images/goku/super-saiyan-blue.webp"
+  },
+  {
+    "name": "Super Saiyan Blue Full Power",
+    "attributes": {
+      "Power Level": "250 Quintillion",
+      "Multiplier": "Base x1,000,000"
+    },
+    "image": "images/goku/super-saiyan-blue-full-power.png"
+  },
+  {
+    "name": "Perfected Super Saiyan Blue (Manga Only)",
+    "attributes": {
+      "Power Level": "250 Quintillion",
+      "Multiplier": "Base x1,000,000 (No Ki drain but takes a physical toll on the body)"
+    },
+    "image": "images/goku/perfected-super-saiyan-blue-manga-only-.webp"
+  },
+  {
+    "name": "Super Saiyan Blue Kaio-Ken",
+    "attributes": {
+      "Power Level": "500 Quintillion",
+      "Multiplier": "Base x2,000,000"
+    },
+    "image": "images/goku/super-saiyan-blue-kaio-ken.webp"
+  },
+  {
+    "name": "Super Saiyan Blue Kaio-Ken x10",
+    "attributes": {
+      "Power Level": "2.5 Sextillion",
+      "Multiplier": "Base x10,000,000"
+    },
+    "image": "images/goku/super-saiyan-blue-kaio-ken-x10.png"
+  },
+  {
+    "name": "Super Saiyan Blue Kaio-Ken x20",
+    "attributes": {
+      "Power Level": "5 Sextillion",
+      "Multiplier": "Base x20,000,000"
+    },
+    "image": "images/goku/super-saiyan-blue-kaio-ken-x20.png"
+  },
+  {
+    "name": "Base (Amplified by Ultra Instinct)",
+    "attributes": {
+      "Power Level": "5 Quadrillion",
+      "Multiplier": "Base x20"
+    },
+    "image": "images/goku/base-amplified-by-ultra-instinct-.jpg"
+  },
+  {
+    "name": "Super Saiyan God (Amplified by Ultra Instinct)",
+    "attributes": {
+      "Power Level": "112.5 Quintillion",
+      "Multiplier": "Base x450,000"
+    },
+    "image": "images/goku/super-saiyan-god-amplified-by-ultra-instinct-.jpg"
+  },
+  {
+    "name": "Super Saiyan Blue (Amplified by Ultra Instinct)",
+    "attributes": {
+      "Power Level": "6.25 Sextillion",
+      "Multiplier": "Base x25,000,000"
+    },
+    "image": "images/goku/super-saiyan-blue-amplified-by-ultra-instinct-.jpg"
+  },
+  {
+    "name": "First Ultra Instinct Sign",
+    "attributes": {
+      "Power Level": "12.5 Sextillion",
+      "Multiplier": "Base x50,000,000"
+    },
+    "image": "images/goku/first-ultra-instinct-sign.webp"
+  },
+  {
+    "name": "Second Ultra Instinct Sign",
+    "attributes": {
+      "Power Level": "25 Sextillion",
+      "Multiplier": "Base x100,000,000"
+    },
+    "image": "images/goku/second-ultra-instinct-sign.jpg"
+  },
+  {
+    "name": "Ultra Instinct Sign",
+    "attributes": {
+      "Power Level": "25 Septillion",
+      "Multiplier": "Base x100 Billion"
+    },
+    "image": "images/goku/ultra-instinct-sign.jpg"
+  },
+  {
+    "name": "Mastered Ultra Instinct",
+    "attributes": {
+      "Power Level": "30 Septillion",
+      "Multiplier": "Base x120 Billion"
+    },
+    "image": "images/goku/mastered-ultra-instinct.jpg"
+  },
+  {
+    "name": "Perfect Ultra Instinct",
+    "attributes": {
+      "Power Level": "30 Septillion",
+      "Multiplier": "Base x120 Billion"
+    },
+    "image": "images/goku/perfect-ultra-instinct.webp"
+  },
+  {
+    "name": "Perfect Ultra Instinct (Avatar Mode)",
+    "attributes": {
+      "Power Level": "37.5 Septillion",
+      "Multiplier": "Base x150 Billion"
+    },
+    "image": "images/goku/perfect-ultra-instinct-avatar-mode-.jpg"
+  },
+  {
+    "name": "True Ultra Instinct",
+    "attributes": {
+      "Power Level": "43.75 Septillion",
+      "Multiplier": "Base x175 Billion"
+    },
+    "image": "images/goku/true-ultra-instinct.jpg"
+  },
+  {
+    "name": "Super Saiyan 2 Berserk",
+    "attributes": {
+      "Power Level": "27.5 Quadrillion",
+      "Multiplier": "Base x110"
+    },
+    "image": "images/goku/super-saiyan-2-berserk.webp"
+  },
+  {
+    "name": "Super Saiyan Blue Berserk",
+    "attributes": {
+      "Power Level": ""
+    },
+    "image": "images/goku/super-saiyan-blue-berserk.webp"
+  },
+  {
+    "name": "Universe Tree Super Saiyan Blue",
+    "attributes": {
+      "Power Level": ""
+    },
+    "image": "images/goku/universe-tree-super-saiyan-blue.webp"
+  }
+] 

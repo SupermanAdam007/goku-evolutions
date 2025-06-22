@@ -1,0 +1,60 @@
+<svg width="390" height="844" viewBox="0 0 390 844" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="390" height="844" fill="#0f172a"/>
+  
+  <!-- Header -->
+  <text x="195" y="80" text-anchor="middle" fill="#6366f1" font-family="Arial, sans-serif" font-size="24" font-weight="bold">How Long Can You Hold</text>
+  <text x="195" y="110" text-anchor="middle" fill="#f8fafc" font-family="Arial, sans-serif" font-size="18">This Button?</text>
+  <text x="195" y="135" text-anchor="middle" fill="#fbbf24" font-size="24">🔥</text>
+  
+  <!-- Subtitle -->
+  <text x="195" y="170" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="14">Think you have the finger of steel? Let's find out!</text>
+  
+  <!-- Main Button -->
+  <circle cx="195" cy="280" r="80" fill="#6366f1" stroke="#818cf8" stroke-width="2"/>
+  <text x="195" y="290" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="18" font-weight="bold">HOLD ME</text>
+  
+  <!-- Progress Ring -->
+  <circle cx="195" cy="280" r="90" fill="none" stroke="rgba(99, 102, 241, 0.3)" stroke-width="4"/>
+  <circle cx="195" cy="280" r="90" fill="none" stroke="#6366f1" stroke-width="4" stroke-linecap="round" stroke-dasharray="565.48" stroke-dashoffset="400" transform="rotate(-90 195 280)"/>
+  
+  <!-- Timer Display -->
+  <rect x="135" y="380" width="120" height="50" rx="25" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="195" y="410" text-anchor="middle" fill="#10b981" font-family="monospace" font-size="18" font-weight="bold">12.45s</text>
+  <text x="195" y="450" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="12">Hold Time</text>
+  
+  <!-- Praise Message -->
+  <rect x="30" y="480" width="330" height="40" rx="20" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="195" y="505" text-anchor="middle" fill="#f8fafc" font-family="Arial, sans-serif" font-size="14">FINGER OF STEEL! 🦾</text>
+  
+  <!-- Goku Evolution Display -->
+  <rect x="50" y="540" width="290" height="120" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  
+  <!-- Goku Image Placeholder -->
+  <circle cx="125" cy="580" r="25" fill="#6366f1"/>
+  <text x="125" y="587" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="20">悟</text>
+  
+  <!-- Goku Info -->
+  <text x="180" y="575" fill="#f8fafc" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Super Saiyan Goku</text>
+  <text x="180" y="595" fill="#64748b" font-family="monospace" font-size="12">Power Level: 150,000</text>
+  
+  <!-- Stats Section -->
+  <rect x="30" y="680" width="330" height="80" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  
+  <!-- Stats Grid -->
+  <text x="85" y="705" text-anchor="middle" fill="#f8fafc" font-family="monospace" font-size="16" font-weight="bold">12.45s</text>
+  <text x="85" y="725" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="10">Personal Best</text>
+  
+  <text x="195" y="705" text-anchor="middle" fill="#f8fafc" font-family="monospace" font-size="16" font-weight="bold">42</text>
+  <text x="195" y="725" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="10">Attempts</text>
+  
+  <text x="305" y="705" text-anchor="middle" fill="#f8fafc" font-family="monospace" font-size="16" font-weight="bold">7</text>
+  <text x="305" y="725" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="10">Streak</text>
+  
+  <!-- Action Buttons -->
+  <rect x="70" y="780" width="100" height="35" rx="17" fill="#6366f1" stroke="#818cf8" stroke-width="1"/>
+  <text x="120" y="800" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">📤 Share</text>
+  
+  <rect x="220" y="780" width="100" height="35" rx="17" fill="#374151" stroke="#4b5563" stroke-width="1"/>
+  <text x="270" y="800" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">🔄 Reset</text>
+</svg> 

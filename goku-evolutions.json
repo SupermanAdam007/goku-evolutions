@@ -1,0 +1,326 @@
+[
+  {
+    "name": "Base",
+    "attributes": {
+      "Power Level": "250 Trillion"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/c/c2/Goku_%28DBS-_SH%29.jpg/revision/latest?cb=20250607224739"
+  },
+  {
+    "name": "Great Ape",
+    "attributes": {
+      "Power Level": "2.5 Quadrillion",
+      "Multiplier": "Base x10"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/c/c1/Oozaru_Goku.png/revision/latest?cb=20180422164628"
+  },
+  {
+    "name": "Kaio-Ken x2",
+    "attributes": {
+      "Power Level": "500 Trillion",
+      "Multiplier": "Base x2"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/d/d4/Goku_kaioken_x1_render_by_luishatakeuchiha-d69jomw.png/revision/latest?cb=20180417172323"
+  },
+  {
+    "name": "Kaio-Ken x3",
+    "attributes": {
+      "Power Level": "750 Trillion",
+      "Multiplier": "Base x3"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/3/38/Goku_kaioken_render.png/revision/latest?cb=20180418041544"
+  },
+  {
+    "name": "Kaio-Ken x4",
+    "attributes": {
+      "Power Level": "1 Quadrillion",
+      "Multiplier": "Base x4"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/d/d4/Goku_kaioken_x1_render_by_luishatakeuchiha-d69jomw.png/revision/latest?cb=20180417172323"
+  },
+  {
+    "name": "Kaio-Ken x10",
+    "attributes": {
+      "Power Level": "2.5 Quadrillion",
+      "Multiplier": "Base x10"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/e/e1/Goku_kaioken_dragon_ball_kai_render_by_fradayesmarkers-dasb92j.png/revision/latest?cb=20180418043418"
+  },
+  {
+    "name": "Kaio-Ken x20",
+    "attributes": {
+      "Power Level": "5 Quadrillion",
+      "Multiplier": "Base x20"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/2/20/Goku_kaioken_render_dokkan_battle_by_maxiuchiha22_dcllshi-fullview.png/revision/latest?cb=20200427153727"
+  },
+  {
+    "name": "Super Saiyan",
+    "attributes": {
+      "Power Level": "12.5 Quadrillion",
+      "Multiplier": "Base x50"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/a/a2/Goku_SSJ_Full_Power.png/revision/latest?cb=20210725200255"
+  },
+  {
+    "name": "Super Saiyan Grade 2",
+    "attributes": {
+      "Power Level": "15.625 Quadrillion",
+      "Multiplier": "Base x62.5"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/6/68/Dckq3yu-759b7697-3220-4efa-9c6f-85cf593.png/revision/latest?cb=20210217160641"
+  },
+  {
+    "name": "Super Saiyan Grade 3",
+    "attributes": {
+      "Power Level": "18.75 Quadrillion",
+      "Multiplier": "Base x75"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/5/56/Goku_super_saiyan_grade_3_dokkan_battle_by_dbzcoolguy67_ddys9sj-400t.png/revision/latest?cb=20230528001409"
+  },
+  {
+    "name": "Mastered Super Saiyan",
+    "attributes": {
+      "Power Level": "12.5 Quadrillion",
+      "Multiplier": "Base x50 (No stamina or Ki drain)"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/6/69/Goku_ssjb_3_ssj_dbs_br_palette_by_ssjrose890_deikvk6-pre.png/revision/latest?cb=20230630011021"
+  },
+  {
+    "name": "Super Kaio-Ken",
+    "attributes": {
+      "Power Level": "25 Quadrillion",
+      "Multiplier": "Base x100"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/6/6b/Goku_Super_KaioKen.png/revision/latest?cb=20230228220142"
+  },
+  {
+    "name": "Super Saiyan 2",
+    "attributes": {
+      "Power Level": "25 Quadrillion",
+      "Multiplier": "Base x100"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/4/40/Super_Saiyan_2_Goku_%28Poster%29.png/revision/latest?cb=20180418055802"
+  },
+  {
+    "name": "Super Saiyan 3",
+    "attributes": {
+      "Power Level": "100 Quadrillion",
+      "Multiplier": "Base x400"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/a/ab/Super_Saiyan_3_Goku_Dragon_Ball_Z.png/revision/latest?cb=20180418163954"
+  },
+  {
+    "name": "Super Saiyan 4 (Daima Version)",
+    "attributes": {
+      "Power Level": "1 Quintillion",
+      "Multiplier": "Base x4,000"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/1/19/Imagehihoubojnouh.png/revision/latest?cb=20250228025826"
+  },
+  {
+    "name": "Golden Great Ape",
+    "attributes": {
+      "Power Level": "125 Quadrillion",
+      "Multiplier": "Base x500"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/4/4c/Golden_Great_Ape_Goku.png/revision/latest?cb=20230430010422"
+  },
+  {
+    "name": "Super Saiyan 4",
+    "attributes": {
+      "Power Level": "1 Quintillion",
+      "Multiplier": "Base x4,000"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/0/07/Super_Saiyan_4_Goku.png/revision/latest?cb=20230430010817"
+  },
+  {
+    "name": "Super Full Power Super Saiyan 4",
+    "attributes": {
+      "Power Level": "12 Quintillion",
+      "Multiplier": "Base x48,000"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/6/6f/SSJ4_Goku_FP.png/revision/latest?cb=20230430012759"
+  },
+  {
+    "name": "Ultra Full Power Super Saiyan 4",
+    "attributes": {
+      "Power Level": "120 Quintillion",
+      "Multiplier": "Base x480,000"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/9/96/Ultra_full_power_ssj4.webp/revision/latest?cb=20240816102921"
+  },
+  {
+    "name": "Super Full Power Saiyan 4 Limit Breaker",
+    "attributes": {
+      "Power Level": "20 Sextillion",
+      "Multiplier": "Base x80,000,000"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/a/a6/Goku_xeno_ssj4_limit_breaker_by_masterartzl_deukcaq-pre.png/revision/latest?cb=20230614170707"
+  },
+  {
+    "name": "Super Saiyan God",
+    "attributes": {
+      "Power Level": "5 Quintillion",
+      "Multiplier": "Base x20,000"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/2/2d/379-3793364_flaring-battle-impulse-super-saiyan-god-goku-goku.png/revision/latest?cb=20230716102935"
+  },
+  {
+    "name": "Super Saiyan Blue",
+    "attributes": {
+      "Power Level": "25 Quintillion",
+      "Multiplier": "Base x100,000"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/a/af/Clear_SSB_Goku.webp/revision/latest?cb=20230223010949"
+  },
+  {
+    "name": "Super Saiyan Blue Full Power",
+    "attributes": {
+      "Power Level": "250 Quintillion",
+      "Multiplier": "Base x1,000,000"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/5/54/276-2761467_son-goku-zenkaibattery1-ssb-goku-render.png/revision/latest?cb=20230223010755"
+  },
+  {
+    "name": "Perfected Super Saiyan Blue (Manga Only)",
+    "attributes": {
+      "Power Level": "250 Quintillion",
+      "Multiplier": "Base x1,000,000 (No Ki drain but takes a physical toll on the body)"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/2/2b/Static-assets-upload2082932704050013206.webp/revision/latest?cb=20230703190632"
+  },
+  {
+    "name": "Super Saiyan Blue Kaio-Ken",
+    "attributes": {
+      "Power Level": "500 Quintillion",
+      "Multiplier": "Base x2,000,000"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/e/e4/Super_saiyan_god_super_saiyan_kaioken_blue_by_nekoar-dbaz79q.webp/revision/latest?cb=20230223011226"
+  },
+  {
+    "name": "Super Saiyan Blue Kaio-Ken x10",
+    "attributes": {
+      "Power Level": "2.5 Sextillion",
+      "Multiplier": "Base x10,000,000"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/4/4a/Super_saiyan_blue_kaioken_goku_dokkan_cover_by_princeofdbzgames_decraqv-pre.png/revision/latest?cb=20230716103402"
+  },
+  {
+    "name": "Super Saiyan Blue Kaio-Ken x20",
+    "attributes": {
+      "Power Level": "5 Sextillion",
+      "Multiplier": "Base x20,000,000"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/2/21/Goku_super_saiyan_blue_kaioken_x20_ssjb.png/revision/latest?cb=20230716112249"
+  },
+  {
+    "name": "Base (Amplified by Ultra Instinct)",
+    "attributes": {
+      "Power Level": "5 Quadrillion",
+      "Multiplier": "Base x20"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/6/69/E4cf8a1333296f320ae0103ec58.jpg/revision/latest?cb=20240827184715"
+  },
+  {
+    "name": "Super Saiyan God (Amplified by Ultra Instinct)",
+    "attributes": {
+      "Power Level": "112.5 Quintillion",
+      "Multiplier": "Base x450,000"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/5/5d/D64cd3b8372b885c8f6c1357.jpg/revision/latest?cb=20240827184816"
+  },
+  {
+    "name": "Super Saiyan Blue (Amplified by Ultra Instinct)",
+    "attributes": {
+      "Power Level": "6.25 Sextillion",
+      "Multiplier": "Base x25,000,000"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/c/c2/Dee4-9d395af3-8c6e-.jpg/revision/latest?cb=20240827184914"
+  },
+  {
+    "name": "First Ultra Instinct Sign",
+    "attributes": {
+      "Power Level": "12.5 Sextillion",
+      "Multiplier": "Base x50,000,000"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/4/49/Ultra_Instinct_sign_1.webp/revision/latest?cb=20240816125948"
+  },
+  {
+    "name": "Second Ultra Instinct Sign",
+    "attributes": {
+      "Power Level": "25 Sextillion",
+      "Multiplier": "Base x100,000,000"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/8/86/Second_Ultra_Instinct_Sign.jpg/revision/latest?cb=20240816130854"
+  },
+  {
+    "name": "Ultra Instinct Sign",
+    "attributes": {
+      "Power Level": "25 Septillion",
+      "Multiplier": "Base x100 Billion"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/8/8d/Final_ultra_instinct_sign.jpg/revision/latest?cb=20240816131403"
+  },
+  {
+    "name": "Mastered Ultra Instinct",
+    "attributes": {
+      "Power Level": "30 Septillion",
+      "Multiplier": "Base x120 Billion"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/a/aa/Goku_muicolord_by_dark2odyssey_dga62v.jpg/revision/latest?cb=20240827185008"
+  },
+  {
+    "name": "Perfect Ultra Instinct",
+    "attributes": {
+      "Power Level": "30 Septillion",
+      "Multiplier": "Base x120 Billion"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/1/11/Perfect_Ultra_Inctinct.webp/revision/latest?cb=20240817093807"
+  },
+  {
+    "name": "Perfect Ultra Instinct (Avatar Mode)",
+    "attributes": {
+      "Power Level": "37.5 Septillion",
+      "Multiplier": "Base x150 Billion"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/2/28/Perfected_Ultra_Instinct_%28Avatar_Mode%29.jpg/revision/latest?cb=20240817094032"
+  },
+  {
+    "name": "True Ultra Instinct",
+    "attributes": {
+      "Power Level": "43.75 Septillion",
+      "Multiplier": "Base x175 Billion"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/3/3c/Dg6w3f2-ce31b096-1eec-49b5-56e9.jpg/revision/latest?cb=20240828093814"
+  },
+  {
+    "name": "Super Saiyan 2 Berserk",
+    "attributes": {
+      "Power Level": "27.5 Quadrillion",
+      "Multiplier": "Base x110"
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/0/04/Super_Saiyan_2_Beserk.webp/revision/latest?cb=20240817100356"
+  },
+  {
+    "name": "Super Saiyan Blue Berserk",
+    "attributes": {
+      "Power Level": ""
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/2/2b/SSGSS_Berserk_Goku_.webp/revision/latest?cb=20230701133147"
+  },
+  {
+    "name": "Time Power Super Saiyan Blue & Time Power Super Saiyan 4",
+    "attributes": {
+      "Power Level": ""
+    },
+    "image": ""
+  },
+  {
+    "name": "Universe Tree Super Saiyan Blue",
+    "attributes": {
+      "Power Level": ""
+    },
+    "image": "https://static.wikia.nocookie.net/perfect-power-level-list/images/3/31/Universe_Tree_Super_Saiyan_Blue.webp/revision/latest?cb=20240817100822"
+  }
+]

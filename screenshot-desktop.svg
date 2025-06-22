@@ -1,0 +1,80 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1280" height="720" fill="#0f172a"/>
+  
+  <!-- Header -->
+  <text x="640" y="80" text-anchor="middle" fill="#6366f1" font-family="Arial, sans-serif" font-size="36" font-weight="bold">How Long Can You Hold This Button?</text>
+  <text x="640" y="120" text-anchor="middle" fill="#fbbf24" font-size="40">🔥</text>
+  <text x="640" y="160" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="18">Think you have the finger of steel? Let's find out!</text>
+  
+  <!-- Left Section: Button and Timer -->
+  <g transform="translate(200, 200)">
+    <!-- Main Button -->
+    <circle cx="100" cy="100" r="80" fill="#6366f1" stroke="#818cf8" stroke-width="3"/>
+    <text x="100" y="110" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="20" font-weight="bold">HOLD ME</text>
+    
+    <!-- Progress Ring -->
+    <circle cx="100" cy="100" r="95" fill="none" stroke="rgba(99, 102, 241, 0.3)" stroke-width="6"/>
+    <circle cx="100" cy="100" r="95" fill="none" stroke="#6366f1" stroke-width="6" stroke-linecap="round" stroke-dasharray="596.9" stroke-dashoffset="350" transform="rotate(-90 100 100)"/>
+    
+    <!-- Timer Display -->
+    <rect x="30" y="220" width="140" height="60" rx="30" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <text x="100" y="255" text-anchor="middle" fill="#10b981" font-family="monospace" font-size="24" font-weight="bold">12.45s</text>
+    <text x="100" y="300" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Hold Time</text>
+  </g>
+  
+  <!-- Center Section: Praise and Goku Evolution -->
+  <g transform="translate(480, 220)">
+    <!-- Praise Message -->
+    <rect x="0" y="0" width="320" height="50" rx="25" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    <text x="160" y="30" text-anchor="middle" fill="#f8fafc" font-family="Arial, sans-serif" font-size="16">FINGER OF STEEL! 🦾</text>
+    
+    <!-- Goku Evolution Display -->
+    <rect x="0" y="80" width="320" height="160" rx="20" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    
+    <!-- Goku Image Placeholder -->
+    <circle cx="80" cy="140" r="35" fill="#6366f1"/>
+    <text x="80" y="150" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="28">悟</text>
+    
+    <!-- Goku Info -->
+    <text x="140" y="135" fill="#f8fafc" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Super Saiyan Goku</text>
+    <text x="140" y="160" fill="#64748b" font-family="monospace" font-size="14">Power Level: 150,000</text>
+  </g>
+  
+  <!-- Right Section: Stats -->
+  <g transform="translate(900, 220)">
+    <rect x="0" y="0" width="280" height="120" rx="20" fill="#1e293b" stroke="#334155" stroke-width="2"/>
+    
+    <!-- Stats Grid -->
+    <g transform="translate(0, 40)">
+      <!-- Personal Best -->
+      <text x="70" y="0" text-anchor="middle" fill="#f8fafc" font-family="monospace" font-size="20" font-weight="bold">12.45s</text>
+      <text x="70" y="20" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="12">Personal Best</text>
+      
+      <!-- Attempts -->
+      <text x="140" y="0" text-anchor="middle" fill="#f8fafc" font-family="monospace" font-size="20" font-weight="bold">42</text>
+      <text x="140" y="20" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="12">Attempts</text>
+      
+      <!-- Streak -->
+      <text x="210" y="0" text-anchor="middle" fill="#f8fafc" font-family="monospace" font-size="20" font-weight="bold">7</text>
+      <text x="210" y="20" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="12">Streak</text>
+    </g>
+    
+    <!-- Action Buttons -->
+    <g transform="translate(0, 140)">
+      <rect x="20" y="0" width="110" height="40" rx="20" fill="#6366f1" stroke="#818cf8" stroke-width="1"/>
+      <text x="75" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">📤 Share</text>
+      
+      <rect x="150" y="0" width="110" height="40" rx="20" fill="#374151" stroke="#4b5563" stroke-width="1"/>
+      <text x="205" y="25" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14">🔄 Reset</text>
+    </g>
+  </g>
+  
+  <!-- Bottom Instructions -->
+  <g transform="translate(640, 560)">
+    <rect x="-200" y="0" width="400" height="80" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="0" y="25" text-anchor="middle" fill="#f8fafc" font-family="Arial, sans-serif" font-size="14" font-weight="bold">📖 How to Play</text>
+    <text x="0" y="45" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="12">Press and hold the button with your mouse or finger</text>
+    <text x="0" y="60" text-anchor="middle" fill="#94a3b8" font-family="Arial, sans-serif" font-size="12">Keep holding as long as possible - don't let go!</text>
+  </g>
+</svg> 

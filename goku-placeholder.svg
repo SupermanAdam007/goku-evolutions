@@ -1,0 +1,37 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="60" cy="60" r="60" fill="url(#gradient)"/>
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Energy Aura -->
+  <circle cx="60" cy="60" r="55" fill="none" stroke="#fbbf24" stroke-width="1" opacity="0.6"/>
+  <circle cx="60" cy="60" r="50" fill="none" stroke="#f59e0b" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Character Symbol -->
+  <text x="60" y="75" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="36" font-weight="bold" filter="url(#glow)">悟</text>
+  
+  <!-- Power Lines -->
+  <g stroke="#fbbf24" stroke-width="2" opacity="0.7">
+    <line x1="30" y1="30" x2="40" y2="40"/>
+    <line x1="90" y1="30" x2="80" y2="40"/>
+    <line x1="30" y1="90" x2="40" y2="80"/>
+    <line x1="90" y1="90" x2="80" y2="80"/>
+  </g>
+  
+  <!-- Center Glow -->
+  <circle cx="60" cy="60" r="30" fill="rgba(251, 191, 36, 0.2)"/>
+</svg> 

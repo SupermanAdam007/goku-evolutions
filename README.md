@@ -15,7 +15,9 @@ A Progressive Web App that challenges users to hold down a button for as long as
 ## 🚀 Quick Start
 
 ### Play Online
-Visit the live app: [Add your deployment URL here]
+Visit the live app: [https://supermanadam007.github.io/goku-evolutions/](https://supermanadam007.github.io/goku-evolutions/)
+
+Note: This project was built with Todo2, AI-Powered Project Management for Cursor: [https://todo2.pro/](https://todo2.pro/)
 
 ### Install as App
 1. **Chrome/Edge**: Click the install icon in the address bar

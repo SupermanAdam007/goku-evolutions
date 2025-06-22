@@ -3,12 +3,12 @@
     "name": "Train with Goku",
     "short_name": "Train with Goku",
     "description": "Train your finger endurance with Goku! Hold the button to unlock legendary transformations from Base to Ultra Instinct. How long can you train?",
-    "start_url": "/",
+    "start_url": "/goku-evolutions/",
     "display": "standalone",
     "background_color": "#ff6b35",
     "theme_color": "#ff6b35",
     "orientation": "portrait-primary",
-    "scope": "/",
+    "scope": "/goku-evolutions/",
     "lang": "en",
     "categories": ["games", "entertainment", "training"],
     "icons": [
@@ -44,7 +44,7 @@
             "name": "Start Training",
             "short_name": "Train",
             "description": "Begin your training with Goku",
-            "url": "/?shortcut=training",
+            "url": "/goku-evolutions/?shortcut=training",
             "icons": [
                 {
                     "src": "images/goku/base.jpg",

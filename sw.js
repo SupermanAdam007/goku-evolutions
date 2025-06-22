@@ -1,18 +1,17 @@
-// Service Worker for Button Hold Game PWA
-const CACHE_NAME = 'button-hold-v1.0.0';
+// Service Worker for Button Hold Game PWA with Auto-Update
+const CACHE_NAME = 'button-hold-v1.0.1';
 const STATIC_CACHE_URLS = [
-    '/',
-    '/index.html',
-    '/styles.css',
-    '/script.js',
-
-    '/goku-evolutions.js',
-    '/manifest.json',
-    '/icon-192.png',
-    '/icon-512.png',
-    '/images/goku/base.jpg',
-    '/screenshot-mobile.svg',
-    '/screenshot-desktop.svg'
+    '/goku-evolutions/',
+    '/goku-evolutions/index.html',
+    '/goku-evolutions/styles.css',
+    '/goku-evolutions/script.js',
+    '/goku-evolutions/goku-evolutions.js',
+    '/goku-evolutions/manifest.json',
+    '/goku-evolutions/icon-192.png',
+    '/goku-evolutions/icon-512.png',
+    '/goku-evolutions/images/goku/base.jpg',
+    '/goku-evolutions/screenshot-mobile.svg',
+    '/goku-evolutions/screenshot-desktop.svg'
 ];
 
 // Install event - cache static assets
@@ -54,8 +53,18 @@ self.addEventListener('activate', (event) => {
             })
             .then(() => {
                 console.log('Service Worker: Activation complete');
-                // Take control of all pages immediately
-                return self.clients.claim();
+                // Take control of all pages immediately and notify clients
+                return self.clients.claim().then(() => {
+                    // Notify all clients that cache has been updated
+                    return self.clients.matchAll().then(clients => {
+                        clients.forEach(client => {
+                            client.postMessage({
+                                type: 'CACHE_UPDATED',
+                                version: CACHE_NAME
+                            });
+                        });
+                    });
+                });
             })
             .catch((error) => {
                 console.error('Service Worker: Activation failed', error);
@@ -109,7 +118,7 @@ self.addEventListener('fetch', (event) => {
                         
                         // If it's a navigation request, return the offline page
                         if (event.request.mode === 'navigate') {
-                            return caches.match('/index.html');
+                            return caches.match('/goku-evolutions/index.html');
                         }
                         
                         // For other requests, just throw the error
@@ -137,8 +146,8 @@ self.addEventListener('push', (event) => {
     
     const options = {
         body: event.data ? event.data.text() : 'New challenge available!',
-        icon: '/icon-192.png',
-        badge: '/icon-192.png',
+        icon: '/goku-evolutions/icon-192.png',
+        badge: '/goku-evolutions/icon-192.png',
         vibrate: [100, 50, 100],
         data: {
             dateOfArrival: Date.now(),
@@ -148,12 +157,12 @@ self.addEventListener('push', (event) => {
             {
                 action: 'explore',
                 title: 'Play Now',
-                icon: '/icon-192.png'
+                icon: '/goku-evolutions/icon-192.png'
             },
             {
                 action: 'close',
                 title: 'Close',
-                icon: '/icon-192.png'
+                icon: '/goku-evolutions/icon-192.png'
             }
         ]
     };
@@ -172,7 +181,7 @@ self.addEventListener('notificationclick', (event) => {
     if (event.action === 'explore') {
         // Open the app
         event.waitUntil(
-            clients.openWindow('/')
+            clients.openWindow('/goku-evolutions/')
         );
     }
 });

@@ -10,7 +10,7 @@ const STATIC_CACHE_URLS = [
     '/manifest.json',
     '/icon-192.png',
     '/icon-512.png',
-    '/goku-placeholder.svg',
+    '/images/goku/base.jpg',
     '/screenshot-mobile.svg',
     '/screenshot-desktop.svg'
 ];

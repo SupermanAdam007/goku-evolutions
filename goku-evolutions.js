@@ -135,9 +135,9 @@ class GokuEvolutionSystem {
 
         newImage.onerror = () => {
             console.warn('Failed to load local Goku evolution image:', evolution.image);
-            // Use fallback placeholder image
-            this.evolutionImage.src = './goku-placeholder.svg';
-            this.evolutionImage.alt = evolution.name + ' (placeholder)';
+            // Use Base Goku as fallback image
+            this.evolutionImage.src = './images/goku/base.jpg';
+            this.evolutionImage.alt = evolution.name + ' (Base Goku fallback)';
             this.evolutionImage.style.display = 'block';
             this.evolutionName.textContent = evolution.name;
             this.evolutionPowerLevel.textContent = `Power Level: ${evolution.powerLevel}`;

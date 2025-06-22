@@ -1,26 +1,27 @@
 {
-    "name": "How Long Can You Hold This Button?",
-    "short_name": "Button Hold",
-    "description": "Think you have the finger of steel? Test your patience and see how long you can hold this button! Share your epic time with friends!",
+    "id": "/train-with-goku/",
+    "name": "Train with Goku",
+    "short_name": "Train with Goku",
+    "description": "Train your finger endurance with Goku! Hold the button to unlock legendary transformations from Base to Ultra Instinct. How long can you train?",
     "start_url": "/",
     "display": "standalone",
-    "background_color": "#0f172a",
-    "theme_color": "#6366f1",
+    "background_color": "#ff6b35",
+    "theme_color": "#ff6b35",
     "orientation": "portrait-primary",
     "scope": "/",
     "lang": "en",
-    "categories": ["games", "entertainment"],
+    "categories": ["games", "entertainment", "training"],
     "icons": [
         {
-            "src": "icon-192.png",
+            "src": "images/goku/base.jpg",
             "sizes": "192x192",
-            "type": "image/png",
+            "type": "image/jpeg",
             "purpose": "any maskable"
         },
         {
-            "src": "icon-512.png",
+            "src": "images/goku/base.jpg",
             "sizes": "512x512",
-            "type": "image/png",
+            "type": "image/jpeg",
             "purpose": "any maskable"
         }
     ],
@@ -40,13 +41,13 @@
     ],
     "shortcuts": [
         {
-            "name": "Start Challenge",
-            "short_name": "Challenge",
-            "description": "Start a new button holding challenge",
-            "url": "/?shortcut=challenge",
+            "name": "Start Training",
+            "short_name": "Train",
+            "description": "Begin your training with Goku",
+            "url": "/?shortcut=training",
             "icons": [
                 {
-                    "src": "icon-192.png",
+                    "src": "images/goku/base.jpg",
                     "sizes": "192x192"
                 }
             ]
@@ -54,7 +55,8 @@
     ],
     "features": [
         "Cross Platform",
-        "Fast",
-        "Engaging"
+        "Dragon Ball Z Training",
+        "Evolution System",
+        "Viral Sharing"
     ]
 } 

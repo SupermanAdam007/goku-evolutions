@@ -1219,8 +1219,8 @@ body {
     }
 
     .goku-character-holder {
-        width: clamp(120px, 18vw, 140px);
-        height: clamp(120px, 18vw, 140px);
+        width: clamp(160px, 25vw, 200px);
+        height: clamp(160px, 25vw, 200px);
     }
 
     .hold-instruction {
